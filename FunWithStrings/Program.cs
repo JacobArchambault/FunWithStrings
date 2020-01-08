@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FunWithStrings
 {
@@ -48,7 +44,7 @@ namespace FunWithStrings
             Console.WriteLine("Ignore case, Invariant Culture: s1.IndexOf(\"E\", StringComparison.InvariantCultureIgnoreCase): {0}", s1.IndexOf("E", StringComparison.InvariantCultureIgnoreCase));
             Console.WriteLine();
         }
-        static void Main(string[] args)
+        static void Main()
         {
             BasicStringFunctionality();
             StringConcatenation();
